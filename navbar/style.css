@@ -1,0 +1,50 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.test{
+  background-color: aqua !important;
+}
+a{
+  color: white !important;
+}
+.image{
+  background-image: url(542342.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height: 800px;
+}
+.ml-lg-3{
+  position: relative;
+  left:10rem;
+  cursor: pointer;
+}
+.navbar-toggler-icon{
+  color: black !important;
+}
+ @media only screen and (max-width: 600px){
+  .mq{
+    font-size: 10px;
+    color:white ;
+  }
+ } 
+
+ @media only screen and (max-width: 800px){
+  .mq{
+    font-size: 50px;
+    color:white;
+  }
+ } 
+ @media only screen and (min-width: 800px){
+  .mq{
+    font-size: 90px;
+    color:  white ;
+  }
+ } 

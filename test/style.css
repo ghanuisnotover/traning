@@ -1,0 +1,15 @@
+.arow {
+    height: 40px;
+    background-color: rgb(211, 129, 29);
+    padding: 2px;
+    margin-bottom: 2px;
+
+}
+.acol{
+    height: 500px;
+    background-color: rgb(117, 28, 41);
+}
+.bcol{
+    height: 400px;
+}
+
